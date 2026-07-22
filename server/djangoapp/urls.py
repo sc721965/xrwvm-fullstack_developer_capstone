@@ -26,6 +26,11 @@ urlpatterns = [
         name='getcars'
     ),
     path(
+        route='get_cars/',
+        view=views.get_cars,
+        name='getcars_slash'
+    ),
+    path(
         route='get_dealers',
         view=views.get_dealerships,
         name='get_dealers'
