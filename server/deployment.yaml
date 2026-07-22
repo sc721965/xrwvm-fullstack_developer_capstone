@@ -27,7 +27,7 @@ spec:
         - name: backend_url
           value: "https://samuelcarrol-3030.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"
         - name: sentiment_analyzer_url
-          value: "http://localhost:5050/"
+          value: "https://samuelcarrol-5050.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/"
         ports:
         - containerPort: 8000
           protocol: TCP
